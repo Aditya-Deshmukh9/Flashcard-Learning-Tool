@@ -31,7 +31,6 @@ const FlashcardList = () => {
       {flashcards.length > 0 && (
         <Flashcard
           question={flashcards[currentIndex].question}
-          options={flashcards[currentIndex].options}
           answer={flashcards[currentIndex].answer}
         />
       )}
